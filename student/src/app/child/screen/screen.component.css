@@ -1,0 +1,60 @@
+.container{
+  width: 100%;
+  margin: 0 auto;
+  background: rgb(130, 130, 177);
+}
+h1{
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 500;
+  padding: 20px;
+  color: rgb(109, 5, 245);
+  text-align: center;
+}
+.student-form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    text-align: center;
+}
+label {
+    width: 150px;
+    color: #000;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.btn button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+
+}
+
+

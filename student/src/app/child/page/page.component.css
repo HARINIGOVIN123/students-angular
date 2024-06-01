@@ -1,0 +1,66 @@
+.container{
+  width: 70%;
+  margin: 30px auto;
+  padding: 20px 0;
+  background: #007bff;
+}
+.student-form {
+  color: blueviolet;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  top: 0;
+  right:0;
+  flex-direction: column;
+}
+.row {
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.row h1{
+  color: #fff;
+}
+
+.student-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  font-style: italic;
+}
+
+input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+  margin: 20px;
+  /* padding: 10px 0px; */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-style: italic;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
